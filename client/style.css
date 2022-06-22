@@ -1,0 +1,16 @@
+#console {
+    width: 100%;
+}
+#consoleOutput{
+    background-color: black;
+    color: white;
+    height: 500px;
+    overflow: scroll;
+}
+#consoleInput {
+    width: 100%;
+    box-sizing: border-box;
+}
+#status {
+    background-color: rgb(182, 182, 182);
+}

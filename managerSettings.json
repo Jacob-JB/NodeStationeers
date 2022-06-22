@@ -1,0 +1,11 @@
+{
+    "workingDir": "/home/steam/StationeersDedicatedServer/",
+    "autoStart": false,
+    "autoRestart": false,
+    "binary": "/home/steam/StationeersDedicatedServer/rocketstation_DedicatedServer.x86_64",
+    "steamDir": "/home/steam/steam/",
+    "launchArgs": [
+        "-batchmode"
+    ],
+    "port": 3000
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stationeers Server Manager</title>
+        <link rel="stylesheet" href="style.css">
+
+        <script src="/socket.io/socket.io.js"></script>
+    </head>
+    <body>
+        <div id="serverPanel">
+            <p id="status">Status: Stopped</p>
+            <div id="controlPanel">
+                <button onclick="killServer()">Stop Process</button>
+                <button id="startStopButton" onclick="startStopGame()">Start Server</button>
+                <button onclick="updateGame('none')">Update (None)</button>
+                <button onclick="updateGame('beta')">Update (Beta)</button>
+                <button onclick="listSaves()">List Saves</button>
+            </div>
+            <div id="console">
+                <p id="consoleOutput"></p>
+                <input id="consoleInput" type="text">
+                <button id="scrollConsole" onclick="scrollConsoleToBottom()">Scroll to end</button>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
